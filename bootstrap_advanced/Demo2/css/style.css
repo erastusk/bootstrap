@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+.collapse {
+    padding-top: 8px;
+    padding-left: 75px;  
+
+}
+.nav-link {
+    font-size: small;
+   
+
+    
+}
+
+.brand {
+    padding-top: 5px;
+    padding-left: 150px;
+    padding-right: 50px;
+
+}
+
+.bi-list-li .btn{
+ 
+    padding-left: 10px;
+    font-size: xx-large;
+}
+.navbar-nav ul .nav-item {
+    padding-top: 600px;
+}
+.nav-ul-hotels .nav-item {
+    padding-top: 15px;
+}
+.bg-image-sanfran, .bg-image-paris,.bg-image-stockholm, .bg-image-ny {
+    display: flex;
+    height: 700px;       
+    justify-content: center;
+
+}
+.bg-image-sanfran {
+    background-image:url('https://picsum.photos/id/1067/700/700') ;   
+}
+.bg-image-paris {
+    background-image:url('https://picsum.photos/id/234/700/700') ;  
+}
+.bg-image-stockholm {
+    background-image:url('https://picsum.photos/id/288/700/700') ;
+}
+.bg-image-ny{
+    background-image:url('https://picsum.photos/id/1029/700/700') ;
+}
+footer li {    
+    display: inline-block;
+    padding: .5rem;
+    
+}
+footer a {
+    text-decoration: none;
+    color: black;
+}
+footer ul {
+    list-style: none;
+  
+}
+footer li .h6 {
+    font-size: .70rem;
+    font-weight: bold;
+}
+
+.seperator {   
+    border-style: solid;
+    border-width: 0.1px;
+    border-right: 1px;
+    height: 18px;
+    display: inline-block;
+    margin-top: 12px;
+    
+}
+
+
+
+.grid-1 {
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    color: white;   
+
+}
+.grid-1 h6 {
+    padding-top: 50px;
+    font-size: 1.5rem;
+}
+.grid-1 .col-lg-6 {
+    display: inline-block;
+    align-items: flex-start;
+    justify-content: space-around;
+
+}
+.row .col-6 .long {
+    color: green;
+}
+
+.bg-image h6 {
+    font-size: 1.5rem;
+    padding-top: 100px;
+}
+
+@media screen and (max-width: 1024px) {
+  
+    .nav-ul .nav-item{
+        display: none;    
+    }
+    .navbar-nav .nav-item {
+        display: none;
+    }
+   
+   
+    .nav-ul-hotels{
+        display: block;
+       
+    }
+}   
+       
