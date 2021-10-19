@@ -122,8 +122,25 @@ footer li .h6 {
    
    
     .nav-ul-hotels{
-        display: block;
+        display: inline-block;
+        position: relative;
        
     }
-}   
+} 
+@media screen and (max-width: 576px) {
+  
+    .nav-ul .nav-item{
+        display: none;    
+    }
+    .nav-ul-hotels .nav-item{
+        display: none;
+    }
+     .brand,.bi-search, .bi-list-li  {
+        padding: 0;
+    }
+   
+   
+   
+} 
+
        
