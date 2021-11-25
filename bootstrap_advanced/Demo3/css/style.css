@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.showcase {
+    position: absolute;
+    right: 0;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+
+}
+.showcase header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.showcase video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+
+}
+.navbar ul{
+    list-style: none; 
+    padding: 1rem 0;
+
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+}
+
+.text {
+    z-index: 3;
+}
+.text h2 {
+    font-size: 5em;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.text h3 {
+    font-size: 4em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.text p {
+    font-size: 1.1em;
+    margin: 20px 0;
+    max-width: 700px;
+}
+  
+
+.social {
+    position:absolute;
+    bottom: 20px;
+    z-index: 10;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+   
+}
+.social li a{
+    text-decoration: none;
+  
+}
+.social li {
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 996px) {
+    .text h2 {
+        font-size: 3em;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+    
+    .text h3 {
+        font-size: 2em;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .text p {
+        font-size: 1em;
+        margin: 20px 0;
+        max-width: 700px;
+    }
+
+}
